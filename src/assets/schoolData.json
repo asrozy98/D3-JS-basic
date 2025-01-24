@@ -1,0 +1,860 @@
+[
+  {
+    "district": {
+      "kodeWilayah": "060000",
+      "kodeWilayahDagri": "11",
+      "namaWilayah": "PROV. ACEH",
+      "namaWilayahDagri": "ACEH",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 2119,
+      "tkSederajat": 3177,
+      "tpa": 129,
+      "sps": 131,
+      "sdSederajat": 4179,
+      "smpSederajat": 1850,
+      "smaSederajat": 883,
+      "smkSederajat": 225,
+      "slb": 71,
+      "dikmas": 827
+    },
+    "totalSatuanPendidikan": 13592
+  },
+  {
+    "district": {
+      "kodeWilayah": "220000",
+      "kodeWilayahDagri": "51",
+      "namaWilayah": "PROV. BALI",
+      "namaWilayahDagri": "BALI",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 509,
+      "tkSederajat": 1762,
+      "tpa": 57,
+      "sps": 17,
+      "sdSederajat": 2516,
+      "smpSederajat": 473,
+      "smaSederajat": 203,
+      "smkSederajat": 176,
+      "slb": 15,
+      "dikmas": 392
+    },
+    "totalSatuanPendidikan": 6121
+  },
+  {
+    "district": {
+      "kodeWilayah": "280000",
+      "kodeWilayahDagri": "36",
+      "namaWilayah": "PROV. BANTEN",
+      "namaWilayahDagri": "BANTEN",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 3735,
+      "tkSederajat": 4217,
+      "tpa": 25,
+      "sps": 560,
+      "sdSederajat": 5817,
+      "smpSederajat": 2797,
+      "smaSederajat": 1119,
+      "smkSederajat": 755,
+      "slb": 122,
+      "dikmas": 956
+    },
+    "totalSatuanPendidikan": 20103
+  },
+  {
+    "district": {
+      "kodeWilayah": "260000",
+      "kodeWilayahDagri": "17",
+      "namaWilayah": "PROV. BENGKULU",
+      "namaWilayahDagri": "BENGKULU",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 700,
+      "tkSederajat": 1347,
+      "tpa": 76,
+      "sps": 63,
+      "sdSederajat": 1572,
+      "smpSederajat": 576,
+      "smaSederajat": 217,
+      "smkSederajat": 106,
+      "slb": 18,
+      "dikmas": 295
+    },
+    "totalSatuanPendidikan": 4971
+  },
+  {
+    "district": {
+      "kodeWilayah": "040000",
+      "kodeWilayahDagri": "34",
+      "namaWilayah": "PROV. D.I. YOGYAKARTA",
+      "namaWilayahDagri": "D.I. YOGYAKARTA",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 1520,
+      "tkSederajat": 2414,
+      "tpa": 222,
+      "sps": 989,
+      "sdSederajat": 2055,
+      "smpSederajat": 588,
+      "smaSederajat": 258,
+      "smkSederajat": 207,
+      "slb": 81,
+      "dikmas": 333
+    },
+    "totalSatuanPendidikan": 8669
+  },
+  {
+    "district": {
+      "kodeWilayah": "010000",
+      "kodeWilayahDagri": "31",
+      "namaWilayah": "PROV. D.K.I. JAKARTA",
+      "namaWilayahDagri": "D.K.I. JAKARTA",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 586,
+      "tkSederajat": 2958,
+      "tpa": 47,
+      "sps": 1762,
+      "sdSederajat": 2721,
+      "smpSederajat": 1343,
+      "smaSederajat": 614,
+      "smkSederajat": 567,
+      "slb": 90,
+      "dikmas": 779
+    },
+    "totalSatuanPendidikan": 11469
+  },
+  {
+    "district": {
+      "kodeWilayah": "300000",
+      "kodeWilayahDagri": "75",
+      "namaWilayah": "PROV. GORONTALO",
+      "namaWilayahDagri": "GORONTALO",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 634,
+      "tkSederajat": 911,
+      "tpa": 8,
+      "sps": 51,
+      "sdSederajat": 1031,
+      "smpSederajat": 421,
+      "smaSederajat": 118,
+      "smkSederajat": 60,
+      "slb": 8,
+      "dikmas": 171
+    },
+    "totalSatuanPendidikan": 3413
+  },
+  {
+    "district": {
+      "kodeWilayah": "100000",
+      "kodeWilayahDagri": "15",
+      "namaWilayah": "PROV. JAMBI",
+      "namaWilayahDagri": "JAMBI",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 1848,
+      "tkSederajat": 1818,
+      "tpa": 65,
+      "sps": 194,
+      "sdSederajat": 2792,
+      "smpSederajat": 1142,
+      "smaSederajat": 508,
+      "smkSederajat": 186,
+      "slb": 24,
+      "dikmas": 544
+    },
+    "totalSatuanPendidikan": 9121
+  },
+  {
+    "district": {
+      "kodeWilayah": "020000",
+      "kodeWilayahDagri": "32",
+      "namaWilayah": "PROV. JAWA BARAT",
+      "namaWilayahDagri": "JAWA BARAT",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 15853,
+      "tkSederajat": 17141,
+      "tpa": 139,
+      "sps": 6490,
+      "sdSederajat": 23983,
+      "smpSederajat": 9319,
+      "smaSederajat": 3334,
+      "smkSederajat": 2950,
+      "slb": 396,
+      "dikmas": 4605
+    },
+    "totalSatuanPendidikan": 84215
+  },
+  {
+    "district": {
+      "kodeWilayah": "030000",
+      "kodeWilayahDagri": "33",
+      "namaWilayah": "PROV. JAWA TENGAH",
+      "namaWilayahDagri": "JAWA TENGAH",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 10321,
+      "tkSederajat": 19265,
+      "tpa": 572,
+      "sps": 2815,
+      "sdSederajat": 22996,
+      "smpSederajat": 5390,
+      "smaSederajat": 1747,
+      "smkSederajat": 1560,
+      "slb": 189,
+      "dikmas": 2327
+    },
+    "totalSatuanPendidikan": 67188
+  },
+  {
+    "district": {
+      "kodeWilayah": "050000",
+      "kodeWilayahDagri": "35",
+      "namaWilayah": "PROV. JAWA TIMUR",
+      "namaWilayahDagri": "JAWA TIMUR",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 15183,
+      "tkSederajat": 26459,
+      "tpa": 420,
+      "sps": 4197,
+      "sdSederajat": 26745,
+      "smpSederajat": 9170,
+      "smaSederajat": 3756,
+      "smkSederajat": 2174,
+      "slb": 404,
+      "dikmas": 3249
+    },
+    "totalSatuanPendidikan": 91769
+  },
+  {
+    "district": {
+      "kodeWilayah": "130000",
+      "kodeWilayahDagri": "61",
+      "namaWilayah": "PROV. KALIMANTAN BARAT",
+      "namaWilayahDagri": "KALIMANTAN BARAT",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 2160,
+      "tkSederajat": 1367,
+      "tpa": 25,
+      "sps": 68,
+      "sdSederajat": 4921,
+      "smpSederajat": 1755,
+      "smaSederajat": 680,
+      "smkSederajat": 238,
+      "slb": 26,
+      "dikmas": 371
+    },
+    "totalSatuanPendidikan": 11611
+  },
+  {
+    "district": {
+      "kodeWilayah": "150000",
+      "kodeWilayahDagri": "63",
+      "namaWilayah": "PROV. KALIMANTAN SELATAN",
+      "namaWilayahDagri": "KALIMANTAN SELATAN",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 1410,
+      "tkSederajat": 2938,
+      "tpa": 162,
+      "sps": 48,
+      "sdSederajat": 3482,
+      "smpSederajat": 1004,
+      "smaSederajat": 399,
+      "smkSederajat": 128,
+      "slb": 26,
+      "dikmas": 583
+    },
+    "totalSatuanPendidikan": 10181
+  },
+  {
+    "district": {
+      "kodeWilayah": "140000",
+      "kodeWilayahDagri": "62",
+      "namaWilayah": "PROV. KALIMANTAN TENGAH",
+      "namaWilayahDagri": "KALIMANTAN TENGAH",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 699,
+      "tkSederajat": 2269,
+      "tpa": 48,
+      "sps": 155,
+      "sdSederajat": 2954,
+      "smpSederajat": 1059,
+      "smaSederajat": 352,
+      "smkSederajat": 141,
+      "slb": 31,
+      "dikmas": 273
+    },
+    "totalSatuanPendidikan": 7981
+  },
+  {
+    "district": {
+      "kodeWilayah": "160000",
+      "kodeWilayahDagri": "64",
+      "namaWilayah": "PROV. KALIMANTAN TIMUR",
+      "namaWilayahDagri": "KALIMANTAN TIMUR",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 1110,
+      "tkSederajat": 1643,
+      "tpa": 78,
+      "sps": 126,
+      "sdSederajat": 2101,
+      "smpSederajat": 913,
+      "smaSederajat": 340,
+      "smkSederajat": 217,
+      "slb": 35,
+      "dikmas": 339
+    },
+    "totalSatuanPendidikan": 6903
+  },
+  {
+    "district": {
+      "kodeWilayah": "340000",
+      "kodeWilayahDagri": "65",
+      "namaWilayah": "PROV. KALIMANTAN UTARA",
+      "namaWilayahDagri": "KALIMANTAN UTARA",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 416,
+      "tkSederajat": 235,
+      "tpa": 17,
+      "sps": 10,
+      "sdSederajat": 522,
+      "smpSederajat": 224,
+      "smaSederajat": 100,
+      "smkSederajat": 35,
+      "slb": 7,
+      "dikmas": 79
+    },
+    "totalSatuanPendidikan": 1645
+  },
+  {
+    "district": {
+      "kodeWilayah": "290000",
+      "kodeWilayahDagri": "19",
+      "namaWilayah": "PROV. KEPULAUAN BANGKA BELITUNG",
+      "namaWilayahDagri": "KEPULAUAN BANGKA BELITUNG",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 375,
+      "tkSederajat": 446,
+      "tpa": 47,
+      "sps": 59,
+      "sdSederajat": 875,
+      "smpSederajat": 308,
+      "smaSederajat": 117,
+      "smkSederajat": 59,
+      "slb": 10,
+      "dikmas": 131
+    },
+    "totalSatuanPendidikan": 2428
+  },
+  {
+    "district": {
+      "kodeWilayah": "310000",
+      "kodeWilayahDagri": "21",
+      "namaWilayah": "PROV. KEPULAUAN RIAU",
+      "namaWilayahDagri": "KEPULAUAN RIAU",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 450,
+      "tkSederajat": 858,
+      "tpa": 16,
+      "sps": 120,
+      "sdSederajat": 1067,
+      "smpSederajat": 499,
+      "smaSederajat": 221,
+      "smkSederajat": 113,
+      "slb": 25,
+      "dikmas": 263
+    },
+    "totalSatuanPendidikan": 3633
+  },
+  {
+    "district": {
+      "kodeWilayah": "120000",
+      "kodeWilayahDagri": "18",
+      "namaWilayah": "PROV. LAMPUNG",
+      "namaWilayahDagri": "LAMPUNG",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 2391,
+      "tkSederajat": 3966,
+      "tpa": 34,
+      "sps": 197,
+      "sdSederajat": 5559,
+      "smpSederajat": 2220,
+      "smaSederajat": 865,
+      "smkSederajat": 505,
+      "slb": 32,
+      "dikmas": 719
+    },
+    "totalSatuanPendidikan": 16488
+  },
+  {
+    "district": {
+      "kodeWilayah": "210000",
+      "kodeWilayahDagri": "81",
+      "namaWilayah": "PROV. MALUKU",
+      "namaWilayahDagri": "MALUKU",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 893,
+      "tkSederajat": 1145,
+      "tpa": 1,
+      "sps": 71,
+      "sdSederajat": 1983,
+      "smpSederajat": 871,
+      "smaSederajat": 380,
+      "smkSederajat": 122,
+      "slb": 16,
+      "dikmas": 169
+    },
+    "totalSatuanPendidikan": 5651
+  },
+  {
+    "district": {
+      "kodeWilayah": "270000",
+      "kodeWilayahDagri": "82",
+      "namaWilayah": "PROV. MALUKU UTARA",
+      "namaWilayahDagri": "MALUKU UTARA",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 745,
+      "tkSederajat": 797,
+      "tpa": 0,
+      "sps": 48,
+      "sdSederajat": 1463,
+      "smpSederajat": 719,
+      "smaSederajat": 329,
+      "smkSederajat": 153,
+      "slb": 28,
+      "dikmas": 217
+    },
+    "totalSatuanPendidikan": 4499
+  },
+  {
+    "district": {
+      "kodeWilayah": "230000",
+      "kodeWilayahDagri": "52",
+      "namaWilayah": "PROV. NUSA TENGGARA BARAT",
+      "namaWilayahDagri": "NUSA TENGGARA BARAT",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 2750,
+      "tkSederajat": 2969,
+      "tpa": 28,
+      "sps": 195,
+      "sdSederajat": 4262,
+      "smpSederajat": 2052,
+      "smaSederajat": 999,
+      "smkSederajat": 358,
+      "slb": 55,
+      "dikmas": 852
+    },
+    "totalSatuanPendidikan": 14521
+  },
+  {
+    "district": {
+      "kodeWilayah": "240000",
+      "kodeWilayahDagri": "53",
+      "namaWilayah": "PROV. NUSA TENGGARA TIMUR",
+      "namaWilayahDagri": "NUSA TENGGARA TIMUR",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 3957,
+      "tkSederajat": 1834,
+      "tpa": 24,
+      "sps": 338,
+      "sdSederajat": 5439,
+      "smpSederajat": 2003,
+      "smaSederajat": 755,
+      "smkSederajat": 359,
+      "slb": 49,
+      "dikmas": 352
+    },
+    "totalSatuanPendidikan": 15110
+  },
+  {
+    "district": {
+      "kodeWilayah": "250000",
+      "kodeWilayahDagri": "91",
+      "namaWilayah": "PROV. PAPUA",
+      "namaWilayahDagri": "PAPUA",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 329,
+      "tkSederajat": 303,
+      "tpa": 3,
+      "sps": 104,
+      "sdSederajat": 885,
+      "smpSederajat": 309,
+      "smaSederajat": 152,
+      "smkSederajat": 49,
+      "slb": 7,
+      "dikmas": 139
+    },
+    "totalSatuanPendidikan": 2280
+  },
+  {
+    "district": {
+      "kodeWilayah": "320000",
+      "kodeWilayahDagri": "92",
+      "namaWilayah": "PROV. PAPUA BARAT",
+      "namaWilayahDagri": "PAPUA BARAT",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 265,
+      "tkSederajat": 317,
+      "tpa": 6,
+      "sps": 2,
+      "sdSederajat": 604,
+      "smpSederajat": 181,
+      "smaSederajat": 79,
+      "smkSederajat": 21,
+      "slb": 1,
+      "dikmas": 47
+    },
+    "totalSatuanPendidikan": 1523
+  },
+  {
+    "district": {
+      "kodeWilayah": "390000",
+      "kodeWilayahDagri": "92",
+      "namaWilayah": "PROV. PAPUA BARAT DAYA",
+      "namaWilayahDagri": "PAPUA BARAT DAYA",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 103,
+      "tkSederajat": 262,
+      "tpa": 0,
+      "sps": 14,
+      "sdSederajat": 587,
+      "smpSederajat": 217,
+      "smaSederajat": 97,
+      "smkSederajat": 40,
+      "slb": 4,
+      "dikmas": 73
+    },
+    "totalSatuanPendidikan": 1397
+  },
+  {
+    "district": {
+      "kodeWilayah": "380000",
+      "kodeWilayahDagri": "95",
+      "namaWilayah": "PROV. PAPUA PEGUNUNGAN",
+      "namaWilayahDagri": "PAPUA PEGUNUNGAN",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 122,
+      "tkSederajat": 165,
+      "tpa": 1,
+      "sps": 36,
+      "sdSederajat": 689,
+      "smpSederajat": 217,
+      "smaSederajat": 83,
+      "smkSederajat": 23,
+      "slb": 0,
+      "dikmas": 229
+    },
+    "totalSatuanPendidikan": 1566
+  },
+  {
+    "district": {
+      "kodeWilayah": "370000",
+      "kodeWilayahDagri": "93",
+      "namaWilayah": "PROV. PAPUA SELATAN",
+      "namaWilayahDagri": "PAPUA SELATAN",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 119,
+      "tkSederajat": 183,
+      "tpa": 0,
+      "sps": 18,
+      "sdSederajat": 637,
+      "smpSederajat": 141,
+      "smaSederajat": 53,
+      "smkSederajat": 26,
+      "slb": 2,
+      "dikmas": 69
+    },
+    "totalSatuanPendidikan": 1248
+  },
+  {
+    "district": {
+      "kodeWilayah": "360000",
+      "kodeWilayahDagri": "94",
+      "namaWilayah": "PROV. PAPUA TENGAH",
+      "namaWilayahDagri": "PAPUA TENGAH",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 48,
+      "tkSederajat": 363,
+      "tpa": 1,
+      "sps": 15,
+      "sdSederajat": 594,
+      "smpSederajat": 187,
+      "smaSederajat": 71,
+      "smkSederajat": 54,
+      "slb": 4,
+      "dikmas": 124
+    },
+    "totalSatuanPendidikan": 1461
+  },
+  {
+    "district": {
+      "kodeWilayah": "090000",
+      "kodeWilayahDagri": "14",
+      "namaWilayah": "PROV. RIAU",
+      "namaWilayahDagri": "RIAU",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 1887,
+      "tkSederajat": 3186,
+      "tpa": 111,
+      "sps": 101,
+      "sdSederajat": 4401,
+      "smpSederajat": 2028,
+      "smaSederajat": 885,
+      "smkSederajat": 318,
+      "slb": 54,
+      "dikmas": 577
+    },
+    "totalSatuanPendidikan": 13548
+  },
+  {
+    "district": {
+      "kodeWilayah": "330000",
+      "kodeWilayahDagri": "76",
+      "namaWilayah": "PROV. SULAWESI BARAT",
+      "namaWilayahDagri": "SULAWESI BARAT",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 764,
+      "tkSederajat": 954,
+      "tpa": 17,
+      "sps": 11,
+      "sdSederajat": 1499,
+      "smpSederajat": 564,
+      "smaSederajat": 199,
+      "smkSederajat": 133,
+      "slb": 25,
+      "dikmas": 276
+    },
+    "totalSatuanPendidikan": 4442
+  },
+  {
+    "district": {
+      "kodeWilayah": "190000",
+      "kodeWilayahDagri": "73",
+      "namaWilayah": "PROV. SULAWESI SELATAN",
+      "namaWilayahDagri": "SULAWESI SELATAN",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 1746,
+      "tkSederajat": 5475,
+      "tpa": 47,
+      "sps": 189,
+      "sdSederajat": 7194,
+      "smpSederajat": 2566,
+      "smaSederajat": 1100,
+      "smkSederajat": 433,
+      "slb": 96,
+      "dikmas": 925
+    },
+    "totalSatuanPendidikan": 19773
+  },
+  {
+    "district": {
+      "kodeWilayah": "180000",
+      "kodeWilayahDagri": "72",
+      "namaWilayah": "PROV. SULAWESI TENGAH",
+      "namaWilayahDagri": "SULAWESI TENGAH",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 1232,
+      "tkSederajat": 2252,
+      "tpa": 8,
+      "sps": 49,
+      "sdSederajat": 3171,
+      "smpSederajat": 1194,
+      "smaSederajat": 422,
+      "smkSederajat": 184,
+      "slb": 34,
+      "dikmas": 465
+    },
+    "totalSatuanPendidikan": 9011
+  },
+  {
+    "district": {
+      "kodeWilayah": "200000",
+      "kodeWilayahDagri": "74",
+      "namaWilayah": "PROV. SULAWESI TENGGARA",
+      "namaWilayahDagri": "SULAWESI TENGGARA",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 508,
+      "tkSederajat": 2326,
+      "tpa": 5,
+      "sps": 10,
+      "sdSederajat": 2535,
+      "smpSederajat": 1053,
+      "smaSederajat": 463,
+      "smkSederajat": 174,
+      "slb": 82,
+      "dikmas": 538
+    },
+    "totalSatuanPendidikan": 7695
+  },
+  {
+    "district": {
+      "kodeWilayah": "170000",
+      "kodeWilayahDagri": "71",
+      "namaWilayah": "PROV. SULAWESI UTARA",
+      "namaWilayahDagri": "SULAWESI UTARA",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 810,
+      "tkSederajat": 1941,
+      "tpa": 10,
+      "sps": 77,
+      "sdSederajat": 2315,
+      "smpSederajat": 820,
+      "smaSederajat": 294,
+      "smkSederajat": 198,
+      "slb": 41,
+      "dikmas": 247
+    },
+    "totalSatuanPendidikan": 6754
+  },
+  {
+    "district": {
+      "kodeWilayah": "080000",
+      "kodeWilayahDagri": "13",
+      "namaWilayah": "PROV. SUMATERA BARAT",
+      "namaWilayahDagri": "SUMATERA BARAT",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 1640,
+      "tkSederajat": 3167,
+      "tpa": 90,
+      "sps": 333,
+      "sdSederajat": 4402,
+      "smpSederajat": 1299,
+      "smaSederajat": 579,
+      "smkSederajat": 222,
+      "slb": 185,
+      "dikmas": 560
+    },
+    "totalSatuanPendidikan": 12477
+  },
+  {
+    "district": {
+      "kodeWilayah": "110000",
+      "kodeWilayahDagri": "16",
+      "namaWilayah": "PROV. SUMATERA SELATAN",
+      "namaWilayahDagri": "SUMATERA SELATAN",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 3058,
+      "tkSederajat": 3004,
+      "tpa": 14,
+      "sps": 120,
+      "sdSederajat": 5361,
+      "smpSederajat": 2057,
+      "smaSederajat": 959,
+      "smkSederajat": 325,
+      "slb": 40,
+      "dikmas": 673
+    },
+    "totalSatuanPendidikan": 15613
+  },
+  {
+    "district": {
+      "kodeWilayah": "070000",
+      "kodeWilayahDagri": "12",
+      "namaWilayah": "PROV. SUMATERA UTARA",
+      "namaWilayahDagri": "SUMATERA UTARA",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 4822,
+      "tkSederajat": 5530,
+      "tpa": 48,
+      "sps": 401,
+      "sdSederajat": 10959,
+      "smpSederajat": 3982,
+      "smaSederajat": 1758,
+      "smkSederajat": 988,
+      "slb": 63,
+      "dikmas": 1963
+    },
+    "totalSatuanPendidikan": 30514
+  },
+  {
+    "district": {
+      "kodeWilayah": "350000",
+      "kodeWilayahDagri": "",
+      "namaWilayah": "LUAR NEGERI",
+      "namaWilayahDagri": "",
+      "levelWilayah": 1
+    },
+    "satuanPendidikanStatistics": {
+      "kbSederajat": 0,
+      "tkSederajat": 9,
+      "tpa": 0,
+      "sps": 0,
+      "sdSederajat": 128,
+      "smpSederajat": 58,
+      "smaSederajat": 12,
+      "smkSederajat": 1,
+      "slb": 0,
+      "dikmas": 13
+    },
+    "totalSatuanPendidikan": 221
+  }
+]
