@@ -65,12 +65,12 @@ export default function DonutChart({ data }) {
       )
       .call((text) =>
         text
-          .filter((d) => d.endAngle - d.startAngle > 0.25)
+          .filter((d) => d.endAngle - d.startAngle > 0.1)
           .append("tspan")
           .attr("x", 0)
-          .attr("y", "0.7em")
+          .attr("y", "0.6em")
           .attr("fill-opacity", 0.7)
-          .text((d) => d.data.value.toLocaleString())
+          .text((d) => new Intl.NumberFormat("id-ID").format(d.data.value))
       );
   }, [data]);
 

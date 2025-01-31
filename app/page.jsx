@@ -1,9 +1,11 @@
+"use client";
+
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
-import indonesia from "../src/assets/indonesiaGeo.json";
-import school from "../src/assets/schoolData.json";
-import useResizeObserver from "../src/components/useResizeObserver";
-import DonutChart from "../src/components/donutChart";
+import indonesia from "../assets/indonesiaGeo.json";
+import school from "../assets/schoolData.json";
+import useResizeObserver from "../components/useResizeObserver";
+import DonutChart from "../components/donutChart";
 import { motion } from "framer-motion";
 
 const satuanPendidikan = [
@@ -89,14 +91,6 @@ function App() {
         },
       };
     }),
-  };
-
-  window.receiveFromFlutter = (data) => {
-    setMessage(data);
-  };
-
-  window.receiveFilterFromFlutter = (data) => {
-    setFilter(data);
   };
 
   useEffect(() => {
@@ -392,15 +386,24 @@ function App() {
       .classed("text-xs sm:text-base fill-black align-middle", true);
   }, [dimensions, filter]);
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      if (!window.receiveFilterFromFlutter)
+        window.receiveFilterFromFlutter = (data) => {
+          setFilter(data);
+        };
+    }
+  }, []);
+
   return (
     <div className="w-full flex flex-col gap-2 p-4">
       <motion.div
-        className="hidden sm:flex sm:flex-col w-full bg-white shadow-lg rounded-lg p-4"
+        className="hidden sm:flex sm:flex-col w-full bg-white text-black shadow-lg rounded-lg p-4"
         initial="hidden"
         animate="visible"
         custom={0}
       >
-        <h3 className="text-lg md:text-xl font-semibold mb-2 text-gray-700">
+        <h3 className="text-lg md:text-xl font-semibold mb-2">
           Pilih satuan pendidikan
         </h3>
         <select
@@ -418,26 +421,26 @@ function App() {
       </motion.div>
 
       <motion.div
-        className="w-full h-[calc(100vh-180px)] bg-white shadow-lg rounded-lg overflow-hidden"
+        className="w-full h-[calc(100vh-180px)] bg-white text-black shadow-lg rounded-lg overflow-hidden"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
         <div className="relative w-full h-full p-4" ref={wrapperRef}>
-          <div className="w-full text-center">
-            <h1 className="text-lg md:text-xl font-bold">
+          <div className="hidden sm:flex sm:flex-col w-full text-center">
+            <h1 className="text-sm md:text-xl font-bold">
               Jumlah Satuan Pendidikan Aktif di Indonesia
             </h1>
             <p className="text-sm md:text-base text-red-500">{message}</p>
           </div>
           <svg ref={svgRef} className="w-full h-full"></svg>
-          <div className="absolute top-16 lg:bottom-10 lg:top-auto w-full flex flex-col sm:flex-row justify-center px-4">
+          <div className="absolute top-2 lg:bottom-10 lg:top-auto w-full flex flex-col sm:flex-row justify-center px-4">
             {satuanPendidikan.map((item) => (
               <div
                 key={item}
                 className="flex flex-row-reverse sm:flex-row items-center"
               >
-                <p className="text-sm md:text-base mx-2">
+                <p className="text-xs md:text-base mx-2">
                   {formatNameAndColor(item).name}
                 </p>
                 <div
