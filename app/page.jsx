@@ -96,7 +96,8 @@ function App() {
   useEffect(() => {
     const { width, height } =
       dimensions || wrapperRef.current.getBoundingClientRect();
-
+    const newWidth = width > 640 ? width : width * 2;
+    const newHeight = width > 640 ? height : height * 1.2;
     // Define the range thresholds and colors
     const thresholds = [0, 1000, 10000, 17000, 35000, 50000];
     const colors = ["lightblue", "#bbf7d0", "#4ade80", "#16a34a", "#14532d"];
@@ -107,14 +108,14 @@ function App() {
     // Select SVG element
     const svg = d3
       .select(svgRef.current)
-      .attr("width", width)
-      .attr("height", height)
+      .attr("width", newWidth)
+      .attr("height", newHeight)
       .on("click", reset);
 
     // Define projection and path generator
     const projection = d3
       .geoMercator()
-      .fitSize([width, height], geoData)
+      .fitSize([newWidth, newHeight], geoData)
       .precision(100);
     const pathGenerator = d3.geoPath().projection(projection);
 
@@ -140,7 +141,10 @@ function App() {
         return colorScale(data.totalSatuanPendidikan);
       })
       .attr("stroke", "black")
-      .attr("transform", `translate(${width / 2}, ${height / 2}) scale(0.01)`)
+      .attr(
+        "transform",
+        `translate(${newWidth / 2}, ${newHeight / 2}) scale(0.01)`
+      )
       .on("mouseover", (event, feature) => {
         setTooltip({
           x: event.pageX,
@@ -217,8 +221,8 @@ function App() {
       .data(geoData.features)
       .join("text")
       .attr("class", "province-label")
-      .attr("x", width) // Start from the left
-      .attr("y", height / 2) // Center vertically
+      .attr("x", newWidth) // Start from the left
+      .attr("y", newHeight / 2) // Center vertically
       .text((feature) => feature.properties.name)
       .attr("text-anchor", "middle")
       .attr("alignment-baseline", "middle")
@@ -243,7 +247,7 @@ function App() {
         .call(
           zoom.transform,
           d3.zoomIdentity,
-          d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
+          d3.zoomTransform(svg.node()).invert([newWidth / 2, newHeight / 2])
         );
     }
 
@@ -274,7 +278,7 @@ function App() {
     const bubbleScale = d3
       .scaleSqrt()
       .domain([0, d3.max(bumbleSchool.map((d) => d.total))])
-      .range([width > 500 ? 5 : 1, width > 500 ? 30 : width * 0.02]);
+      .range([newWidth > 500 ? 5 : 1, newWidth > 500 ? 30 : newWidth * 0.02]);
 
     const randomPoints = bumbleSchool.map((d) => {
       const feature = geoData.features.find((f) =>
@@ -318,7 +322,7 @@ function App() {
         group
           .append("circle")
           .attr("cx", 0) // Starting from the left
-          .attr("cy", height / 2) // Center vertically
+          .attr("cy", newHeight / 2) // Center vertically
           .attr("r", 0) // Start with a radius of 0
           .transition()
           .duration(2000) // Duration of the animation
@@ -333,7 +337,7 @@ function App() {
         group
           .append("text")
           .attr("x", 0) // Start from the left
-          .attr("y", height / 2) // Center vertically
+          .attr("y", newHeight / 2) // Center vertically
           .attr("dy", "0.35em")
           .attr("text-anchor", "middle")
           .text(d.satuan)
@@ -349,7 +353,7 @@ function App() {
     const legendWidth = 300;
     const legendHeight = 10;
     const legendX = 20;
-    const legendY = height - 50;
+    const legendY = newHeight - 50;
 
     // Append a group for the legend and give it a class for easier selection
     const legendGroup = mapGroup
@@ -396,7 +400,7 @@ function App() {
   }, []);
 
   return (
-    <div className="w-full flex flex-col gap-2 p-4">
+    <div className="w-full h-full flex flex-col gap-2 p-4" ref={wrapperRef}>
       <motion.div
         className="hidden sm:flex sm:flex-col w-full bg-white text-black shadow-lg rounded-lg p-4"
         initial="hidden"
@@ -426,14 +430,14 @@ function App() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="relative w-full h-full p-4" ref={wrapperRef}>
+        <div className="relative w-full h-full p-4 overflow-scroll">
           <div className="hidden sm:flex sm:flex-col w-full text-center">
             <h1 className="text-sm md:text-xl font-bold">
               Jumlah Satuan Pendidikan Aktif di Indonesia
             </h1>
             <p className="text-sm md:text-base text-red-500">{message}</p>
           </div>
-          <svg ref={svgRef} className="w-full h-full"></svg>
+          <svg ref={svgRef}></svg>
           <div className="absolute top-2 lg:bottom-10 lg:top-auto w-full flex flex-col sm:flex-row justify-center px-4">
             {satuanPendidikan.map((item) => (
               <div
