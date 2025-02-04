@@ -96,8 +96,8 @@ function App() {
   useEffect(() => {
     const { width, height } =
       dimensions || wrapperRef.current.getBoundingClientRect();
-    const newWidth = width > 640 ? width : width * 2;
-    const newHeight = width > 640 ? height : height * 1.2;
+    const newWidth = width;
+    const newHeight = height;
     // Define the range thresholds and colors
     const thresholds = [0, 1000, 10000, 17000, 35000, 50000];
     const colors = ["lightblue", "#bbf7d0", "#4ade80", "#16a34a", "#14532d"];
@@ -430,15 +430,17 @@ function App() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="relative w-full h-full p-4 overflow-scroll">
+        <div className="relative w-full h-full p-4">
           <div className="hidden sm:flex sm:flex-col w-full text-center">
             <h1 className="text-sm md:text-xl font-bold">
               Jumlah Satuan Pendidikan Aktif di Indonesia
             </h1>
             <p className="text-sm md:text-base text-red-500">{message}</p>
           </div>
-          <svg ref={svgRef}></svg>
-          <div className="absolute top-2 lg:bottom-10 lg:top-auto w-full flex flex-col sm:flex-row justify-center px-4">
+          <div className="w-full h-full overflow-scroll">
+            <svg ref={svgRef}></svg>
+          </div>
+          <div className="absolute top-4 lg:bottom-10 lg:top-auto w-full flex flex-col sm:flex-row justify-center px-4">
             {satuanPendidikan.map((item) => (
               <div
                 key={item}
