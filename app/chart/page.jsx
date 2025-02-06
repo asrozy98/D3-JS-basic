@@ -33,7 +33,7 @@ const formatNameAndColor = (name) => {
 };
 
 export default function Chart() {
-  const [kodeWilayah, setKodeWilayah] = useState("");
+  const [kodeWilayah, setKodeWilayah] = useState("50000");
   const [dataProv, setDataProv] = useState(null);
   const [data, setData] = useState([]);
 
@@ -70,6 +70,20 @@ export default function Chart() {
     }
   };
 
+  const sendDataToFlutter = () => {
+    const sendData = {
+      kodeWilayah: kodeWilayah,
+      namaWilayah: dataProv?.namaWilayah,
+      total: dataProv?.total,
+    };
+    console.log("test", sendData);
+    if (typeof window !== "undefined") {
+      if (window.sendToFlutter) {
+        window.sendToFlutter.postMessage(sendData);
+      }
+    }
+  };
+
   useEffect(() => {
     getData();
   }, [kodeWilayah]);
@@ -101,6 +115,14 @@ export default function Chart() {
           </h2>
         </div>
         <DonutChart data={data} />
+        <div className="w-full flex justify-center">
+          <button
+            className="w-36 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            onClick={sendDataToFlutter}
+          >
+            Kirim Data
+          </button>
+        </div>
       </div>
     </motion.div>
   );
