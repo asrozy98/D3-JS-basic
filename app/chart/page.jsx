@@ -79,6 +79,7 @@ export default function Chart() {
     console.log("test", JSON.stringify(sendData));
     if (typeof window !== "undefined") {
       if (window.sendToFlutter) {
+        console.log("test2", JSON.stringify(sendData));
         window.sendToFlutter.postMessage(JSON.stringify(sendData));
       }
     }
