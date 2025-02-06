@@ -33,7 +33,7 @@ const formatNameAndColor = (name) => {
 };
 
 export default function Chart() {
-  const [kodeWilayah, setKodeWilayah] = useState("50000");
+  const [kodeWilayah, setKodeWilayah] = useState("");
   const [dataProv, setDataProv] = useState(null);
   const [data, setData] = useState([]);
 
@@ -76,10 +76,10 @@ export default function Chart() {
       namaWilayah: dataProv?.namaWilayah,
       total: dataProv?.total,
     };
-    console.log("test", sendData);
+    console.log("test", JSON.stringify(sendData));
     if (typeof window !== "undefined") {
       if (window.sendToFlutter) {
-        window.sendToFlutter.postMessage(sendData);
+        window.sendToFlutter.postMessage(JSON.stringify(sendData));
       }
     }
   };
